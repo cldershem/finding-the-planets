@@ -60,10 +60,10 @@ a mental note.
 
 ### Processing Data
 Our CSV file contains rows of floating point numbers. But the `simple_csv` crate
-returns a slice of Strings. We will need to turn does Strings into floating
+returns a slice of Strings. We will need to turn those Strings into floating
 point numbers before we can properly process them.
 
-We does this by iterating over the `row`. Remember how the first column
+We do this by iterating over the `row`. Remember how the first column
 contained the time? We don't need it now so we will drop it for the moment.
 
 ```rust
